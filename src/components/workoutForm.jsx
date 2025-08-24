@@ -1,10 +1,6 @@
 import { addDoc, collection, serverTimestamp } from "firebase/firestore";
 import { useForm } from "react-hook-form";
 
-
-
-
-
 export default function WorkoutForm() {
     const { register, handleSubmit, reset } = useForm({
         defaultValues: {
@@ -16,7 +12,7 @@ export default function WorkoutForm() {
             notes: ""
         },
     })
-}
+
 
 async function onSubmit(values) {
     const sets = Number(values.sets);
@@ -66,4 +62,4 @@ return (
         <button type="submit">Add Workout</button>
     </form>
 )
-}
+}};
