@@ -1,12 +1,9 @@
-import './App.css'
 import WorkoutForm from './components/workoutForm'
 
-
 function App() {
-
   return (
-    <main style={{ padding: 24, maxWidth: 720, margin: "0 auto", fontFamily: "system-ui, sans-serif" }}>
-      <h1>Workout Tracker</h1>
+    <main className="mx-auto max-w-2xl px-4 py-10 font-sans">
+      <h1 className="mb-6 text-3xl font-semibold tracking-tight">Workout Tracker</h1>
       <WorkoutForm />
     </main>
   )
