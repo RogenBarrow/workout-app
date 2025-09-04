@@ -13,9 +13,9 @@ export default function BottomNav({ current = "workout", onChange}) {
     )
 
     return (
-        <nav className="fixed inset-x-0 bottom-0 z-50 border-t border-gray-200 bg-white/95 backdrop-blur supports-[backdrop-filer]:bg-white/70">
+        <nav className="fixed inset-x-0 bottom-0 z-50 border-t border-gray-200 bg-white/95 backdrop-blur supports-[backdrop-filter]:bg-white/70">
             <div className="mx-auto flex h-16 max-w-xl items-stretch justify-around px-2">
-                <Item id="home" label="Home">
+                <Item id="dashboard" label="Dashboard">
                     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" className="h-6 w-6">
                         <path strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round"
                           d="M3 10.5 12 3l9 7.5V20a1 1 0 0 1-1 1h-5v-6H9v6H4a1 1 0 0 1-1-1v-9.5z" />
