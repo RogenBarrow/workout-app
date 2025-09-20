@@ -38,7 +38,7 @@ export default function Dashboard() {
     }
     return (
         <div className="space-y-4">
-            <h2 className="text-lg font-semibold text-gray-900">Recent Workout</h2>
+            <h2 className="flex justify-center text-lg font-semibold text-gray-900">Recent Workout</h2>
             <ul className="divide-y divide-gray-200 rounded-xl border border-gray-200 bg-white">
             {items.map(data => {
                 const meta = [
